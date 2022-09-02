@@ -1,0 +1,24 @@
+#board{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20x;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#board div, input{
+    margin: 5px 10px;
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+}
+#title{
+    text-align: center;
+}
